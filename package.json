@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/stripsql",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strip identifiers and sql tokens for idempotent workflows.",
+  "bin": {
+    "stripsql": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/stripsql.git"
+  },
+  "homepage": "https://theworker02.github.io/stripsql/",
+  "keywords": [
+    "strip",
+    "sql",
+    "id",
+    "cli",
+    "toolkit"
+  ]
+}
